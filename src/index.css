@@ -1,0 +1,11 @@
+main {
+  max-width: 800px; /* main container can grow up to 700px wide, but not more */
+  margin: 0 auto; /* top-bottom margin = 0
+                        left-right margin = auto
+                        → browser splits leftover horizontal space equally
+                        → centers the container */
+
+  padding: 40px 20px; /* inner spacing INSIDE the container
+                         40px top & bottom
+                         20px left & right */
+}
