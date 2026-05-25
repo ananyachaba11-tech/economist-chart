@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "economist-chart",
+  base: "/economist-chart/",
   plugins: [react()],
 });
